@@ -1,9 +1,7 @@
 class Translation(object):
-    START_TEXT = """Hai,I Am URL Uploader
-      
-☛ URL with Custom Thumbnail Support..
-
-☛ Send - url | New Name.Extension
+    START_TEXT = """Hi,
+I'm Syn-URL Uploader!
+You can upload HTTP/HTTPS direct link, Using this bot!
                    
 ☛ /help for more details..."""
     RENAME_403_ERR = "Sorry. You are not permitted to rename this file."
@@ -17,15 +15,15 @@ URL | filename | username | password"""
     UPLOAD_START = "uploading..."
     RCHD_BOT_API_LIMIT = "size greater than maximum allowed size (50MB). Neverthless, trying to upload."
     RCHD_TG_API_LIMIT = "Downloaded in {} seconds.\nDetected File Size: {}\nSorry. But, I cannot upload files greater than 1.5GB due to Telegram API limitations."
-    AFTER_SUCCESSFUL_UPLOAD_MSG = "Thank You For Using Me @AID_3N"
-    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds. \nUploaded in {} seconds."
+    AFTER_SUCCESSFUL_UPLOAD_MSG = "Thank You For Using Me @synuploadbot"
+    AFTER_SUCCESSFUL_UPLOAD_MSG_WITH_TS = "Downloaded in {} seconds.\nUploaded in {} seconds.\n\n@synuploadbot"
     NOT_AUTH_USER_TEXT = "Please /upgrade your subscription."
     NOT_AUTH_USER_TEXT_FILE_SIZE = "Detected File Size: {}."
     SAVED_CUSTOM_THUMB_NAIL = "Custom video / file thumbnail saved. This image will be used in the video / file."
     DEL_ETED_CUSTOM_THUMB_NAIL = "✅ Custom thumbnail cleared succesfully."
     FF_MPEG_DEL_ETED_CUSTOM_MEDIA = "✅ Media cleared succesfully."
     SAVED_RECVD_DOC_FILE = "Document Downloaded Successfully."
-    CUSTOM_CAPTION_UL_FILE = " "
+    CUSTOM_CAPTION_UL_FILE = "@synuploadbot"
     NO_CUSTOM_THUMB_NAIL_FOUND = "No Custom ThumbNail found."
     NO_VOID_FORMAT_FOUND = "ERROR...\n<b>YouTubeDL</b> said: {}"
     USER_ADDED_TO_DB = "User <a href='tg://user?id={}'>{}</a> added to {} till {}."
@@ -34,13 +32,20 @@ URL | filename | username | password"""
 Telegram ID: <code>{}</code>
 Plan name: ViP
 Expires on: Untill my death ☭"""
-    HELP_USER = """ <b>1. Send url (Link|New Name with Extension).
-2. Send Custom Thumbnail (Optional).
+    HELP_USER = """How to Use Me? Follow These steps!
+    
+1. Send url (example.domain/File.mp4 | New Filename.mp4).
+2. Send Image As Custom Thumbnail (Optional).
 3. Select the button.
    SVideo - Give File as video with Screenshots
-   DFile  - Give File with Screenshots
+   DFile  - Give File (video) as file with Screenshots
    Video  - Give File as video without Screenshots
-   File  - Give File without Screenshots</b>"""
+   File   - Give File without Screenshots
+
+--------
+Send /me to know current plan details
+
+If bot didn't respond, contact @synuser"""
     REPLY_TO_DOC_GET_LINK = "Reply to a Telegram media to get High Speed Direct Download Link"
     REPLY_TO_DOC_FOR_C2V = "Reply to a Telegram media to convert"
     REPLY_TO_DOC_FOR_SCSS = "Reply to a Telegram media to get screenshots"
